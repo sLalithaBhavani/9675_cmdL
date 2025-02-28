@@ -1,0 +1,110 @@
+26-02-2024
+package com.sat.tmf.pmt.date;
+import java.util.List;
+package com.sat.tmf.pmt.entity.User;
+
+public static class AppData{
+   public static List<User> usersList;
+   public static User LoggedinUser
+    public static List<User> InitUsers(){
+    usersList = new Arra
+      return null;
+    }  
+    p s User getloggedinuser(){
+    return user;
+    
+}}
+package
+import AppData
+import User
+public class UserActions{
+  public void registerUser(User){
+   AppData.usersList.add(user);
+  }
+  public void login(User user){
+  AppData.setLoggedInUser(user);
+}
+
+--//learn solid principles.
+//S - Single responsibility Principle -> should only do a singe task
+//O - Open Close Priciple -> the block should be open for extrension but closed for modification.
+//L - Liskove Substituition -> 
+//I - 
+//D - 
+// we follow SOLID principes to make the product mainainale, reiable, extendale.
+
+--questions:
+-differentiate all date classes available in java. know when to use what.
+-create enum with code and value.
+
+
+==================================================================================================================================================================================================================
+
+28-02-2024
+
+
+assignRewards(userId){
+   calculateRewardPoints()
+}
+doTxn(){
+-
+-
+-
+assignRewards(userId);
+}
+calculateRewardPoints()
+{
+logic1;
+
+if(flag){ 
+ logic2;
+}else{
+ logic1;
+}
+//if we want to update reward calculations logic, to follow ocp rule here, we apply the change to few users based on flag value. This implies that we are 'open to extension and closed for modification'.
+//generally we have two types of flags;
+   ->sys_parameters(in db)
+   id   |param_name     |param_value   |is_active
+   1    |new_calc_date  |01-04-2025    |
+   ->property files
+      - is outside the main project code.
+}
+
+
+package com.sat.tmf.pmt.app;
+
+public class WalletAccountActions{
+
+}
+
+public interface BankAccountActions{
+   public void updateBankaccountStatus();
+}
+*change all the actions to interface and write implementation.* 
+savingAccountActions implements Bankaccountactions.
+
+#heirarchy of environments priority-wise.
+PROD
+pre-prod
+UAT
+QA
+DEV
+
+tasks:
+Q-*change all the actions to interface and write implementation.* 
+Q- menu display code, user registration
+Q- what are jar,war,ear?
+      jar - java archive 
+         - for building standalone or console or library
+      war - web archive 
+         - exclusively for web applications
+      ear - ejb archive
+         - ejb stands for enterprise java beans.
+         - designed for enterprise applications
+Q- what is a java bean
+     - POJO
+     - private members
+     - public method for private members
+
+
+
