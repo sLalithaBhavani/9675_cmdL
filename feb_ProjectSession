@@ -105,6 +105,13 @@ Q- what is a java bean
      - POJO
      - private members
      - public method for private members
+=============================================================================================================================================================================
+7-March-2025.
 
+null != list.getUser()
+         vs
+list.getUser() != null
 
-
+Assignment: all the ways to iterate a list.(collections framework)
+            null check with using collections framework.
+            UML diagrams - Work flow diagrams - Sequence diagrams.
