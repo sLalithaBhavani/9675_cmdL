@@ -115,3 +115,24 @@ list.getUser() != null
 Assignment: all the ways to iterate a list.(collections framework)
             null check with using collections framework.
             UML diagrams - Work flow diagrams - Sequence diagrams.
+
+
+
+======================================================================================================================================================================================
+18-march-2025
+
+-> if we use 'new' keyword, there is always tight coupling.
+
+-> 'dependency injection'
+
+-> dependency injection can only be used when you want the object throughout the application. for example- db.'connection' , we need the connection to exist until we "shutdown" the system. 
+   only in such cases dependency injection should be used.
+
+-> inversion control and dependency injection are almost same.
+
+-> 'maven' for java applications
+          - independent of IDE/Environment.
+          - process of building application.
+          - dependencies.
+          - version control.
+          - deployment process.
